@@ -5,17 +5,27 @@ module.exports = {
     node: true,
     jest: true
   },
-  extends: ['airbnb-base'],
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
+  plugins: [
+    'react',
+  ],
   rules: {
     'comma-dangle': ['error', 'never'],
-    'no-param-reassign': ['error', { props: false }]
-  }
+    'no-param-reassign': ['error', { props: false }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
 };

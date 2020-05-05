@@ -1,15 +1,21 @@
-barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
+eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in local community
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+Under the SDG Goal Four (4) "QUALITY EDUCATION" are two unique problems. Team-048 of great innovators has decided to build a solution for Problem Statement One:
+*"Try building a solution that will help substantially increase the supply of qualified teachers in your community. You can include a plan to integrate or collaborate with international co-operations for teachers to be trained in developing countries”*.
+Our solution is broken down by providing answers to these questions:
+[ ] How do we know qualified teachers?
+[ ]	Are we to train teachers that are not qualified enough?
+[ ]	What metrics are we to use in rating them?
+ 
 
 Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
 
-This is a simple JavaScript starter repo template for setting up your project. The setup contains
+This is a simple JavaScript starter repo template (integrated with react) for setting up your project. The setup contains
 
 - Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
 
@@ -17,7 +23,7 @@ This is a simple JavaScript starter repo template for setting up your project. T
 
 ## Why
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
+To Help Increase the Supply of Qualified Teachers in Developing Countries
 
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
@@ -65,4 +71,3 @@ It's powerful to always give credit.
 
 ## LICENSE
 MIT
-
