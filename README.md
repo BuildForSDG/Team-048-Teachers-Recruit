@@ -5,12 +5,13 @@ eTeachersRecruit is a solution that will help substantially increase the supply 
 
 ## About
 
-Under the SDG Goal Four (4) "QUALITY EDUCATION" are two unique problems. Team-048 of great innovators has decided to build a solution for Problem Statement One:
+Under the SDG Goal Four (4) "QUALITY EDUCATION" are two unique problems. Team-048 of great innovators has decided to build a solution for Problem Statement One:  
 *"Try building a solution that will help substantially increase the supply of qualified teachers in your community. You can include a plan to integrate or collaborate with international co-operations for teachers to be trained in developing countries”*.
-Our solution is broken down by providing answers to these questions:
-[ ] How do we know qualified teachers?
-[ ]	Are we to train teachers that are not qualified enough?
-[ ]	What metrics are we to use in rating them?
+Our solution is broken down by providing answers to these questions:   
+
+[ ] How do we know qualified teachers?   
+[ ]	Are we to train teachers that are not qualified enough?   
+[ ]	What metrics are we to use in rating them?   
  
 
 Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
