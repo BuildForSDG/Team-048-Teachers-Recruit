@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -5,34 +8,65 @@
 body {
   background-color: #f4f4f4;
   color: #555;
+  line-height: 1.8 !important;
+  font-family: 'Barlow Condensed' sans-serif !important;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 1vmin);
+  font-size: calc(15px + 1vmin);
   color: white;
 }
-
-.App-footer {
+footer .small {
   background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  text-align: center;
   padding: 10px;
+  width: 100%;
+  color: white;
+  font-size: 1.1rem;
+}
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 80px 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  width: 100%;
+}
+.footer-two {
+  text-align: center;
+}
+.footer-three {
+  text-align: right;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-light .navbar-brand {
+  color: #ccc !important;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  background-color: #282c34;
+  width: 100%;
+}
 .main {
-  width: 80%;
   margin: 50px auto;
 }
-
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 .App-link {
   color: #61dafb;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    grid-template-columns: 40% 20% 30%;
+  }
 }
