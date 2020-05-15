@@ -1,7 +1,6 @@
 eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in local community
 
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
-
+[![Build Status](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit.svg?branch=develop)](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit)  [![Coverage Status](https://coveralls.io/repos/github/BuildForSDG/team-048-e-teachers-recruit/badge.svg)](https://coveralls.io/github/BuildForSDG/team-048-e-teachers-recruit) 
 
 ## About
 
