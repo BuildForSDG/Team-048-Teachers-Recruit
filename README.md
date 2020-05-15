@@ -1,6 +1,6 @@
 eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in local community
 
-[![Build Status](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit.svg?branch=develop)](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit)  [![Coverage Status](https://coveralls.io/repos/github/BuildForSDG/team-048-e-teachers-recruit/badge.svg)](https://coveralls.io/github/BuildForSDG/team-048-e-teachers-recruit) 
+[![Build Status](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit.svg?branch=develop)](https://travis-ci.org/BuildForSDG/team-048-e-teachers-recruit)  [![Coverage Status](https://coveralls.io/repos/github/BuildForSDG/team-048-e-teachers-recruit/badge.svg?branch=pages)](https://coveralls.io/github/BuildForSDG/team-048-e-teachers-recruit?branch=pages)
 
 ## About
 
