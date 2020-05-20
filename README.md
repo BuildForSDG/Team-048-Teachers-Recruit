@@ -1,7 +1,6 @@
 eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in local community
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/83be32b48a304adba19c96dbc37779f7)](https://app.codacy.com/gh/BuildForSDG/team-048-e-teachers-recruit?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-048-e-teachers-recruit&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
 ## About
