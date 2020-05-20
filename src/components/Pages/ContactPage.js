@@ -23,7 +23,7 @@ function Showcase() {
 
 function ContactForm() {
   return (
-    <Form className="container">
+    <Form className="contact">
       <FormGroup>
         <Label for="name">Name</Label>
         <Input type="text" name="name" id="name" placeholder="Name" />

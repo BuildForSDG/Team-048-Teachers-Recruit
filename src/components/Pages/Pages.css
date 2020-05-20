@@ -118,6 +118,10 @@ img {
 .about-intro .intro-box {
   background-color: #333;
 }
+.contact {
+  width: 90%;
+  margin: 0 auto;
+}
 
 @media (min-width: 800px) {
   .section {
@@ -148,5 +152,9 @@ img {
   }
   .display-4 {
     font-size: 3.5rem !important;
+  }
+  .contact {
+    width: 70%;
+    margin: 0 auto;
   }
 }
