@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-header {
@@ -15,4 +15,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.input {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
 }
