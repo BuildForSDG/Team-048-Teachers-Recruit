@@ -48,6 +48,15 @@ footer .small {
 .navbar-light .navbar-brand {
   color: #ccc !important;
 }
+.navbar button, .navbar button:focus {
+  margin: 0 10px;
+  background-color: inherit !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+.navbar button:hover {
+  border: 1px solid #ccc!important;
+}
 .fixed-top {
   position: fixed;
   top: 0;

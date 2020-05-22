@@ -144,6 +144,9 @@ img {
   .opportunities {
     grid-template-columns: 1fr 1fr;
   }
+  .card {
+    margin: 30px auto;
+  }
   .about {
     grid-template-columns: 1fr 1fr;
   }
