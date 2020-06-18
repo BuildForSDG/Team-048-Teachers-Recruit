@@ -8,9 +8,9 @@ Under the SDG Goal Four (4) "QUALITY EDUCATION" are two unique problems. Team-04
 *"Try building a solution that will help substantially increase the supply of qualified teachers in your community. You can include a plan to integrate or collaborate with international co-operations for teachers to be trained in developing countries”*.
 Our solution is broken down by providing answers to these questions:   
 
-[ ] How do we know qualified teachers?   
-[ ]	How do we train teachers that are not qualified enough?   
-[ ]	What metrics are we to use in rating them?   
+[] How do we know qualified teachers?   
+[] How do we train teachers that are not qualified enough?   
+[] What metrics are we to use in rating them?   
  
 This is a simple JavaScript starter repo template (integrated with react) for setting up your project. The setup contains
 
@@ -45,12 +45,13 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 - Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
 ## Authors
-Odinaka Joy @ dinakajoy 	
-Onah Sunday @ onally01 
-Victor Eleanya @ mrvicthor  
-Omololu Emmanuel @ omohemma  
-Gagher Terpase Theophilus @ philcz16  
-Oyewale Tayo Olamide @ imwithjosh 
+Odinaka Joy @ dinakajoy      
+Onah Sunday @ onally01     
+Victor Eleanya @ mrvicthor      
+Omololu Emmanuel @ omohemma     
+Gagher Terpase Theophilus @ philcz16     
+Oyewale Tayo Olamide @ imwithjosh    
+Samuel Jonathan @ 0m0hsam     
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
