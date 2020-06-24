@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import GuestNavbar from '../Navbar/GuestNavbar';
 import {
   Jumbotron
 } from 'reactstrap';
@@ -79,6 +80,7 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div>
+        <GuestNavbar />
         <Showcase />
         <main className="main">
           <AboutUs />
