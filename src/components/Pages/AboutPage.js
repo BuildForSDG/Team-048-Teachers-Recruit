@@ -2,9 +2,9 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import {
-  Jumbotron,
-  Button
+  Jumbotron
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './Pages.css';
 
 function Showcase() {
@@ -29,9 +29,14 @@ function AboutUs() {
         <br />
         <br />
         <h2>About eRecruit Platform</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi eum aliquam consequuntur aitecto deserunt optio illo cumque, dolor, ad accusantium eaque Lorem ipsum dolor sit amet consectetur.</p>
-        <p>Adipisicing elit. Dolorem modi eum aliquam consequuntur architecto deserunt optio illo cumque, dolor, ad accusantium eaque praesentium vitae totam unde nihil! Reiciendis cupiditate sit distincti quae inventore corrupti tempore!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi eum aliquam consequuntur architecto deserunt optio illo cumque, dolor, ad accusantium eaque Lorem ipsum dolor sit amet consectetur.</p>
+        <p>eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in developing countries</p>
+        <p>
+          One thing is that teachers are the key to a better future for the next generation.
+          <em>Show me a child with learning passion but have a &quot;bad&quot; teacher and I will show you a child that will hate education. </em>
+          This is why we ensure that you do not just get a teacher but one that understand what it takes to be called a teacher
+        </p>
+        <p>We are Your Number One Teachers Recruit Platform. We ensure that only qualified and well trained teachers are recruited in schools in developing areas in the country and beyond.</p>
+        <p>We have passion for education and it is our dream that everyone gets quality education both those in developing areas</p>
       </div>
     </section>
   );
@@ -43,7 +48,8 @@ function GetInTouch() {
       <div className="hero-image">
         <div className="hero-text">
           <h1>Have A Need To Reach Out To Us?</h1>
-          <Button color="primary">Get In Touch</Button>
+          <br />
+          <Link className="btn btn-primary" to="/contact-us">Learn More</Link>
         </div>
       </div>
     </section>
@@ -55,7 +61,7 @@ function ERecruit() {
     <section className="intro about-intro container">
       <div className="intro-box">
         <h2>Our Vision</h2>
-        <p>To be the number platform for recruiting qualified teachers in Africa</p>
+        <p>To be the number platform for recruiting qualified teachers in Africa and beyond</p>
       </div>
       <div className="intro-box">
         <h2>Our Mission</h2>
@@ -63,7 +69,7 @@ function ERecruit() {
       </div>
       <div className="intro-box">
         <h2>Our Values</h2>
-        <p>We value transparency, hard-work, deligence in service and honesty.</p>
+        <p>We value transparency, empathy, hard-work, deligence in service and honesty.</p>
       </div>
     </section>
   );
