@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import GuestNavbar from '../Navbar/GuestNavbar';
 import { Link } from 'react-router-dom';
 import {
   Jumbotron,
@@ -42,11 +43,11 @@ function Intro() {
       </div>
       <div className="intro-box">
         <h2>What We Do?</h2>
-        <p>eTeachersRecruit ensures that only qualified and well trained teachers are recruited in schools in developing areas in the country</p>
+        <p>eTeachersRecruit ensures that only qualified and well trained teachers are recruited in schools in developing areas in the country and beyond</p>
       </div>
       <div className="intro-box">
         <h2>Why Us?</h2>
-        <p>We have passion for education and it is our dream that everyone gets quality education bith those in developing areas</p>
+        <p>We have passion for education and it is our dream that everyone gets quality education both those in developing areas and beyond</p>
       </div>
     </section>
   );
@@ -60,9 +61,9 @@ function AboutUs() {
       </div>
       <div className="about-right">
         <h2>About eRecruit Platform</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi eum aliquam consequuntur aitecto deserunt optio illo cumque, dolor, ad accusantium eaque Lorem ipsum dolor sit amet consectetur.</p>
-        <p>Adipisicing elit. Dolorem modi eum aliquam consequuntur architecto deserunt optio illo cumque, dolor, ad accusantium eaque praesentium vitae totam unde nihil! Reiciendis cupiditate sit distincti quae inventore corrupti tempore!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi eum aliquam consequuntur architecto deserunt optio illo cumque, dolor, ad accusantium eaque Lorem ipsum dolor sit amet consectetur.</p>
+        <p>eTeachersRecruit is a solution that will help substantially increase the supply of qualified teachers in developing countries</p>
+        <p>We are Your Number One Teachers Recruit Platform. We ensure that only qualified and well trained teachers are recruited in schools in developing areas in the country and beyond.</p>
+        <p>We have passion for education and it is our dream that everyone gets quality education both those in developing areas</p>
         <br />
         <Link className="btn btn-primary" to="/about-us">Learn More</Link>
       </div>
@@ -76,6 +77,7 @@ function GetInTouch() {
       <div className="hero-image">
         <div className="hero-text">
           <h1>Have A Need To Reach Out To Us?</h1>
+          <br />
           <Link className="btn btn-primary" to="/contact-us">Get In Touch</Link>
         </div>
       </div>
@@ -146,6 +148,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
+        <GuestNavbar />
         <Showcase />
         <Intro />
         <main className="main">

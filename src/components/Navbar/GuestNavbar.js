@@ -40,7 +40,7 @@ const GuestNavbar = () => {
       email: document.querySelector('#email').value,
       password: document.querySelector('#password').value
     };
-    const resp = await fetch('http://e-teachers-recruit.herokuapp.com/api/v1/user/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+    const resp = await fetch('https://teacher-recruit-api.herokuapp.com/api/v1/user/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
     const json = await resp.json();
     // eslint-disable-next-line no-console
     console.log(json);
@@ -58,7 +58,7 @@ const GuestNavbar = () => {
       password: document.querySelector('#password').value,
       password_confirmation: document.querySelector('#password_confirmation').value
     };
-    const resp = await fetch('http://e-teachers-recruit.herokuapp.com/api/v1/user/registration', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+    const resp = await fetch('https://teacher-recruit-api.herokuapp.com/api/v1/user/registration/create', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
     const json = await resp.json();
     // eslint-disable-next-line no-console
     console.log(json);
@@ -89,7 +89,7 @@ const GuestNavbar = () => {
           <Nav className="ml-auto" navbar>
             <Button color="primary" onClick={toggleM}>Signup</Button>
             <Modal isOpen={modal} toggle={toggleM}>
-              <ModalHeader toggle={toggleM}>Modal title</ModalHeader>
+              <ModalHeader toggle={toggleM}>Signup</ModalHeader>
               <ModalBody>
                 <Form className="contact">
                   <FormGroup>
@@ -131,7 +131,7 @@ const GuestNavbar = () => {
 
             <Button onClick={toggleM2}>Signin</Button>
             <Modal isOpen={modal2} toggle={toggleM2}>
-              <ModalHeader toggle={toggleM2}>Sign in</ModalHeader>
+              <ModalHeader toggle={toggleM2}>Signin</ModalHeader>
               <ModalBody>
                 <Form className="contact">
                   <FormGroup>

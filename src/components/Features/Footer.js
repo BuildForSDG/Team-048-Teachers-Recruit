@@ -11,8 +11,8 @@ function Footer() {
       <div className="footer">
         <div className="footer-one">
           <img src={logo} alt="eRecriut" />
-          <p>Your Number Teachers Recruit Platform. We ensure that only qualified and well trained teachers are recruited in schools in developing areas in the country</p>
-          <p>We have passion for education and it is our dream that everyone gets quality education bith those in developing areas</p>
+          <p>Your Number One Teachers Recruit Platform. We ensure that only qualified and well trained teachers are recruited in schools in developing areas in the country</p>
+          <p>We have passion for education and it is our dream that everyone gets quality education both those in developing areas</p>
         </div>
         <div className="footer-two">
           <h3>LINKS:</h3>

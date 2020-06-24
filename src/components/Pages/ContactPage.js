@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import GuestNavbar from '../Navbar/GuestNavbar';
 import {
   Jumbotron,
   Button,
@@ -45,6 +46,7 @@ class ContactPage extends React.Component {
   render() {
     return (
       <div>
+        <GuestNavbar />
         <Showcase />
         <main className="main">
           <br />

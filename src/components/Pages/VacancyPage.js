@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import GuestNavbar from '../Navbar/GuestNavbar';
 import { Link } from 'react-router-dom';
 import {
   Jumbotron,
@@ -83,6 +84,7 @@ class VacancyPage extends React.Component {
   render() {
     return (
       <div>
+        <GuestNavbar />
         <Showcase />
         <main className="main">
           <Opportunities />

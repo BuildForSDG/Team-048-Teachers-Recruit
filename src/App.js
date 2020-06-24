@@ -8,14 +8,12 @@ import AboutPage from './components/Pages/AboutPage';
 import VacancyPage from './components/Pages/VacancyPage';
 import ContactPage from './components/Pages/ContactPage';
 import Footer from './components/Features/Footer';
-import GuestNavbar from './components/Navbar/GuestNavbar';
 
 class App extends React.Component {
   render() {
     return (
       <>
         <Router>
-          <GuestNavbar />
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/about-us" component={AboutPage} />
